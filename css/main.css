@@ -222,8 +222,13 @@ aside {
   flex-flow: row wrap;
 }
 
-reviews h3 {
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
   width: 55%;
+  margin: 20px 0;
 }
 /****************** About page ***********************/
 
@@ -239,6 +244,10 @@ reviews h3 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-content {
+  margin: 0;
 }
 
 /********************** FAQ page***********************/
@@ -461,21 +470,25 @@ footer .copyright {
 /*===============================
 About Page
 =================================*/
-.mission {
-
+.mission-content {
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
-flex-flow: row wrap;
+padding-top: 20px;
 }
-.contact-section {
+
+.mission-content p {
+  width: 45%;
+}
+ 
+.contact-section .content-wrapper h2 {
+  width: 80%;
+}
+.contact-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.contact-content p {
-  margin: 0;
 }
 
 
@@ -496,9 +509,6 @@ FAQ page
 .faq-content {
   flex-basis: 40%;}
 
-
-
-}
 
 @media only screen and (min-width: 1200px) {
   /*****Desktop styles here****/
