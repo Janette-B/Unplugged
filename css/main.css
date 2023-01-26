@@ -98,7 +98,7 @@
      ========================================================================== */
   
   /* General Styles */
-   
+
   html {
     font-size: 16px;
   }
@@ -108,6 +108,7 @@
     font-family: 'Open Sans', sans-serif;
     color: #e2e3ed;
     text-align: left;
+    background-color: #202322;
   }
    
   ul, 
@@ -169,6 +170,7 @@
     align-items: center;
     flex-flow: row wrap;
   }
+
   
   header {
     padding: 15px 0;
@@ -278,7 +280,7 @@
     font-size: 2.25em;
     font-family: 'Poppins', Helvetica, Arial, sans-serif; 
     font-weight: 500; 
-    line-height: 1.2; 
+    line-height: 1.2;
   }
   
   /* Aside */
@@ -290,9 +292,12 @@
     align-items: center;
     flex-flow: row wrap;
   }
+
+  h3 {margin: 0;
+  }
   
   aside .form {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   
   input[type=text] {
